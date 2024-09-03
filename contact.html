@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; display: flex; flex-direction: column; min-height: 100vh;text-align: center">
+
+    <header style="background-color: #2c3e50; color: white; padding: 20px;">
+        <h1 style="margin: 0;">Kontak Kami</h1>
+        <nav>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline; margin: 0 10px;"><a href="index.html" style="color: white; text-decoration: none; padding: 10px; background-color: #34495e; border-radius: 5px;">Beranda</a></li>
+                <li style="display: inline; margin: 0 10px;"><a href="gallery.html" style="color: white; text-decoration: none; padding: 10px; background-color: #34495e; border-radius: 5px;">Galeri</a></li>
+                <li style="display: inline; margin: 0 10px;"><a href="about.html" style="color: white; text-decoration: none; padding: 10px; background-color: #34495e; border-radius: 5px;">Sejarah</a></li>
+                <li style="display: inline; margin: 0 10px;"><a href="contact.html" style="color: white; text-decoration: none; padding: 10px; background-color: #34495e; border-radius: 5px;">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="flex: 1; padding: 20px;">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin berkomunikasi dengan kami, silakan isi formulir di bawah ini:</p>
+        <form action="submit_form.php" method="post" style="max-width: 600px; margin: 0 auto;">
+            <div style="margin-bottom: 15px;">
+                <label for="name" style="display: block; margin-bottom: 5px;">Nama:</label>
+                <input type="text" id="name" name="name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+                <input type="email" id="email" name="email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required>
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label for="message" style="display: block; margin-bottom: 5px;">Pesan:</label>
+                <textarea id="message" name="message" rows="5" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required></textarea>
+            </div>
+            <button type="submit" style="background-color: #2c3e50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Kirim</button>
+        </form>
+    </main>
+
+    <footer style="background-color: #2c3e50; color: white; padding: 10px; text-align: center;">
+        <p>&copy; 2024 Rumah Adat Sumatera Utara</p>
+    </footer>
+
+</body>
+</html>
